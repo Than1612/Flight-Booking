@@ -1,0 +1,24 @@
+.table-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table-container th {
+  background-color: #f2f2f2;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

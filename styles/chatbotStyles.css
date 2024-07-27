@@ -1,0 +1,97 @@
+/* Container for the entire chatbot */
+.chatbot-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  background-color: whitesmoke;
+}
+
+/* Container for the conversation/messages */
+.conversation {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Styling individual messages */
+.message {
+  margin: 10px 0;
+}
+
+.user {
+  text-align: right;
+  color: black;
+}
+
+.bot {
+  text-align: left;
+  color: black;
+}
+
+.message strong {
+  display: block;
+}
+
+.message span {
+  display: block;
+  margin-top: 5px;
+}
+
+/* Container for the input field and send button */
+.input-container {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: black;
+}
+
+/* Add styling for the table within the chatbot */
+.table-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table-container th {
+  background-color: #f2f2f2;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
